@@ -6,6 +6,7 @@ import './content.css'
 import Switch from './Components/Switch'
 import Contact from './Components/Contact'
 import WorkHistory from './Components/WorkHistory'
+import SampleWork from './Components/samplework'
 
 function App() {
   const StyledApp = styled.div`
@@ -80,13 +81,15 @@ function App() {
 
             </div>
             <div className="information">
-              <p>I'm a Graphic Designer and Software Developer with an appetite for complex problems. Currently residing in Columbus, OH as a Digital Designer 	&#38; Front-end Developer @ Quantum Health and Jr. Developer @ B.I.T.S.</p>
+              <p>I'm a Graphic Designer and Software Developer with an appetite for complex problems. Currently residing in Columbus, OH as a Digital Designer 	&#38; Front-end Developer @ <a href="https://quantum-health.com/" target="_blank" >Quantum Health</a> and Jr. Developer @ B.I.T.S.</p>
 
               <p>Always happy to talk about design, dev, and dogs.</p>
 
               <p>Resume provided on request: snmln.dev@gmail.com</p>
             </div>
           </div>
+          <hr />
+          <SampleWork />
           <hr />
           <WorkHistory />
           <hr />

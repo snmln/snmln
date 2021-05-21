@@ -26,7 +26,7 @@ export default function Contact() {
             <div className="contactContainer">
 
                 <div className="title">
-                    <h3>Contact</h3>
+                    <h2>Contact</h2>
                 </div>
                 <div className="information">
                     <ul>

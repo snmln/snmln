@@ -1,9 +1,9 @@
 import React from 'react'
 import styled, { ThemeProvider } from "styled-components";
-import { positions } from './positions.js'
 
-export default function WorkHistory(props) {
-    const StyledWork = styled.div`
+function samplework() {
+    const StyledCards = styled.div`
+    
     .contactContainer{
         dispaly:flex;
         flex-direction: row;
@@ -12,7 +12,7 @@ export default function WorkHistory(props) {
     display: -ms-flexbox;
     }
     
-    .information{
+    .Cards{
        max-width: 75%;
         margin: 0;
     }
@@ -25,7 +25,6 @@ export default function WorkHistory(props) {
     li{
         padding: 0 0 2rem 0;
     }
-
     @media (max-width: 768px) {
         .contactContainer{
           dispaly:inline-flex;
@@ -47,29 +46,21 @@ export default function WorkHistory(props) {
         padding:0;
       }
       }
-
- 
 `
     return (
-        <StyledWork>
-            <div className="contactContainer">
+        <StyledCards>
+            <div className="Container">
 
                 <div className="title">
-                    <h2>Work History</h2>
+                    <h2>Work Sample</h2>
                 </div>
-                <div className="information">
-                    <ul>
-                        {positions.map((position) => (
-                            <li>
-                                <h3>{position.title}</h3>
-                                <h4><a href={position.site} target="_blank">{position.company}</a>  |  {position.time}</h4>
-                                <p>{position.description}</p>
-                            </li>
-                        ))}
-                      
-                    </ul>
+                <div className="Cards">
+                  
                 </div>
             </div>
-        </StyledWork>
+        </StyledCards >
+
     )
 }
+
+export default samplework

@@ -72,8 +72,16 @@ h1, h2, h3, h4, h5, h6{
 
 a{
     color: inherit; 
-    text-decoration: underline;
-    
+    text-decoration: none;
+    border-bottom: 1px solid ;
+}
+
+a:hover{
+    color: inherit; 
+    text-decoration: none;
+    border-bottom: 3px solid ;
+    -webkit-transition:all 0.1s cubic-bezier(.53,0,.51,1.01);
+    transition: all 0.1s cubic-bezier(.53,0,.51,1.01);
 }
 
 hr{
