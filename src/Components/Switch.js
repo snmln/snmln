@@ -1,16 +1,9 @@
-import React from 'react'
+import React, { Component } from 'react'
 // import './Switch.css'
-import styled, { ThemeProvider } from "styled-components";
+import styled from "styled-components";
 
-const toggleCopy=(theme)=> {
-    if (theme) {
-        return <div>Toggle Dark</div>
-    } else {
-        return <div>Toggle Dark</div>
-    }
-}
 
-export default function Switch({ isToggled, onToggle, theme}) {
+function Switch({ isToggled, onToggle, theme }) {
     const StyledToggle = styled.div`
     .switch{
         position: relative;
@@ -64,19 +57,25 @@ export default function Switch({ isToggled, onToggle, theme}) {
 
  
     }
+    .toggleStateCopy{
+        display: inline;
+        padding: 0 0 0 .25rem;
+    }
+    
 `
 
-console.log("from switch " + theme )
 
     return (
         <StyledToggle>
-            {toggleCopy}
-
-            <label className="switch">
-                <input type="checkbox" checked={isToggled} onChange={onToggle} />
-                <span className="slider " />
-            </label>
-
+   
+                    <label className="switch">
+                        <input type="checkbox" checked={isToggled} onChange={onToggle} />
+                        <span className="slider " />
+                    </label>
+                    {theme ? <h5 className="toggleStateCopy"> Toggle Light</h5> : <h5 className="toggleStateCopy"> Toggle Dark</h5>}
+      
         </StyledToggle>
+
     )
 }
+export default Switch;

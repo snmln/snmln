@@ -31,7 +31,6 @@ function App() {
 
       }
       
-
       @media (max-width: 768px) {
         .Content{
           dispaly:inline-flex;
@@ -67,17 +66,17 @@ function App() {
 
         <GlobalStyles />
         <StyledApp>
+
           <Switch
             isToggled={isToggled}
             onToggle={() => { setIsToggled(!isToggled); themeToggler(); }}
             onClick={() => themeToggler()}
             theme={isToggled} />
-
           {/* <button onClick={() => themeToggler()} > change theme</button> */}
           <hr />
           <div className="Content">
             <div className="title">
-              <h1>Hello, My name is <br /> Sean Malone</h1>
+              <h1 className="display-1">Hello, My name is <br /> Sean Malone</h1>
 
             </div>
             <div className="information">

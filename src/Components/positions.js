@@ -13,7 +13,7 @@ export const positions=[
         time: "May 2019 – Present",
         company:"Business Information Technology Services",
         site: "#",
-        description: "Description"
+        description: "Implementing, developing, and maintaining custom website designs for clients using Drupal, Wordpress and Squarespace. Working with and implementing proprietary API’s. Supporting Senior Developers and Tech Leads on client application development utilizing JavaScript, REACT."
     },
     {
         id:2,
@@ -21,7 +21,7 @@ export const positions=[
         time: "February 2019 – November 2020",
         company:"McGraw-Hill Education",
         site: "https://www.mheducation.com/",
-        description: "Description"
+        description: "Responsible for designing and developing content strategy for all product portfolios. Lead the design and development of McGraw Hill’s first digital product review platform, used to assist with multi million dollar sales opportunities."
     },
 
     {
@@ -40,7 +40,7 @@ export const positions=[
         time: "Jul 2018 – Dec 2018",
         company:"CONSPIRE",
         site: "https://www.conspire.agency/",
-        description: "Description"
+        description: "Responsible for creative direction, art production, and SEO across print and digital mediums. Building and maintaining client websites using HTML5, CSS, JavaScript, and PHP. Implementing code utilizing Squarespace, Wordpress to maintain and update client sites."
     },
     {
         id:6,
@@ -48,7 +48,7 @@ export const positions=[
         time: "Dec 2016 – Jul 2018",
         company:"The Ohio State University",
         site: "https://www.osu.edu/",
-        description: "Description"
+        description: "Responsible for enforcing The Ohio State University’s brand guidelines, along with guiding a team of 5+ interns. Designing university campaigns for the office of student life, from concept to production."
     },
     {
         id:7,
@@ -56,6 +56,6 @@ export const positions=[
         time: "Nov 2015 – Dec 2016",
         company:"Digico Imaging Inc.",
         site: "https://www.nutis.com/",
-        description: "Description"
+        description: "Design industrial marketing materials for product displays and large scale marketing graphics. Prepare client artwork to be handed off to production."
     }
 ]

@@ -81,4 +81,9 @@ hr{
     border-top: 2px solid;
     margin: 1rem 0;
   }
+
+  .display-1{
+      font-size: 40px;
+  }
+
 `
