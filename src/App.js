@@ -20,13 +20,19 @@ function App() {
           flex-wrap: wrap;
 
         }
-
+        .Container{
+          dispaly:inline-flex;
+          flex-direction: row;
+          width: 100%;
+              display: -webkit-flex;
+      display: -ms-flexbox;
+      }
         .title{
           width: 40%;
         }
 
         .information{
-        width: 40%;
+        width: 50%;
         padding:0 0 0 22.4px;
         transition-delay: all 2s;
 

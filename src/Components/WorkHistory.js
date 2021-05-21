@@ -12,10 +12,6 @@ export default function WorkHistory(props) {
     display: -ms-flexbox;
     }
     
-    .information{
-       max-width: 75%;
-        margin: 0;
-    }
     ul{
         list-style-type:none;
         padding: 0;
@@ -25,6 +21,7 @@ export default function WorkHistory(props) {
     li{
         padding: 0 0 2rem 0;
     }
+   
 
     @media (max-width: 768px) {
         .contactContainer{

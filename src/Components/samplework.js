@@ -1,11 +1,12 @@
 import React from 'react'
 import styled, { ThemeProvider } from "styled-components";
+import Card from './card'
 
 function samplework() {
     const StyledCards = styled.div`
     
-    .contactContainer{
-        dispaly:flex;
+    .Container{
+        dispaly:inline-flex;
         flex-direction: row;
         width: 100%;
             display: -webkit-flex;
@@ -16,17 +17,9 @@ function samplework() {
        max-width: 75%;
         margin: 0;
     }
-    ul{
-        list-style-type:none;
-        padding: 0;
-        margin: 0;
-    }
 
-    li{
-        padding: 0 0 2rem 0;
-    }
     @media (max-width: 768px) {
-        .contactContainer{
+        .Container{
           dispaly:inline-flex;
           flex-direction: column;
           width: 100%;
@@ -43,7 +36,7 @@ function samplework() {
         width: 100%;
         max-width: 100%;
 
-        padding:0;
+        padding:22.4px 0 0 0;
       }
       }
 `
@@ -54,8 +47,8 @@ function samplework() {
                 <div className="title">
                     <h2>Work Sample</h2>
                 </div>
-                <div className="Cards">
-                  
+                <div className="information">
+                    <Card />
                 </div>
             </div>
         </StyledCards >

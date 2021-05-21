@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { ThemeProvider } from "styled-components";
+import styled from "styled-components";
 
 export default function Contact() {
     const StyledContact = styled.div`
@@ -11,15 +11,30 @@ export default function Contact() {
     display: -ms-flexbox;
     }
     
-    .information{
-       max-width: 75%;
-
-    }
+  
     ul{
         list-style-type:none;
         padding: 0;
     }
- 
+    @media screen and (max-width: 768px) {
+        .contactContainer{
+            dispaly:inline-flex;
+            flex-direction: column;
+            width: 100%;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            flex-wrap: wrap;
+  
+          }
+          .title{
+            width: 100%;
+          }
+  
+          .information{
+          width: 100%;
+          padding:0;
+        }
+    }
 `
     return (
         <StyledContact>

@@ -2,19 +2,25 @@ import {createGlobalStyle} from 'styled-components';
 
 export const lightTheme ={
     body: '#fff',
-    fontColor: '#000'
+    fontColor: '#000',
+    oppositeBody: '#000',
+    oppositeFont:'#fff'
+
 }
 
 export const darkTheme = {
     body: '#000',
     fontColor: '#fff',
-    background: "#282729"
+    background: "#282729",
+    oppositeBody: '#fff',
+    oppositeFont:'#000'
+
 };
 
 export const HighContrastTheme = {
     body: '#1400FF',
     fontColor: '#fff',
-    background: "#1400FF"
+    background: "#1400FF",
 };
 // font-size: 1.75rem;
 
