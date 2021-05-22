@@ -7,36 +7,26 @@ export const projects=[
     },
     {
         id:3,
-        title: "Junior Software/Web Developer",
+        title: "Exommerce Site",
         time: "May 2019 – Present",
         company:"Business Information Technology Services",
-        site: "#",
-        description: "Implementing, developing, and maintaining custom website designs for clients using Drupal, Wordpress and Squarespace. Working with and implementing proprietary API’s. Supporting Senior Developers and Tech Leads on client application development utilizing JavaScript, REACT."
+        site: "https://snmlnecommerce.netlify.app/",
+        description: "Utilizing React componenets creating an arcive"
     },
     {
         id:2,
-        title: "Designer",
+        title: "Poxedex",
         time: "February 2019 – November 2020",
         company:"McGraw-Hill Education",
-        site: "https://www.mheducation.com/",
-        description: "Responsible for designing and developing content strategy for all product portfolios. Lead the design and development of McGraw Hill’s first digital product review platform, used to assist with multi million dollar sales opportunities."
+        site: "https://snmlnpokedex.netlify.app/#/",
+        description: "React based Pokedex, utilizing pokemon open API."
     },
     {
         id:4,
-        title: "Designer",
+        title: "Weather application",
         time: "February 2019 – November 2020",
         company:"McGraw-Hill Education",
-        site: "https://www.mheducation.com/",
-        description: "Responsible for designing and developing content strategy for all product portfolios. Lead the design and development of McGraw Hill’s first digital product review platform, used to assist with multi million dollar sales opportunities."
-    },
-    {
-        id:5,
-        title: "Designer",
-        time: "February 2019 – November 2020",
-        company:"McGraw-Hill Education",
-        site: "https://www.mheducation.com/",
-        description: "Responsible for designing and developing content strategy for all product portfolios. Lead the design and development of McGraw Hill’s first digital product review platform, used to assist with multi million dollar sales opportunities."
-    },
-
-  
+        site: "https://snmlnweatherapp.netlify.app/",
+        description: "Using open source API."
+    }
 ]
