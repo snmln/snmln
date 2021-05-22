@@ -21,6 +21,22 @@ export const projects=[
         site: "https://www.mheducation.com/",
         description: "Responsible for designing and developing content strategy for all product portfolios. Lead the design and development of McGraw Hill’s first digital product review platform, used to assist with multi million dollar sales opportunities."
     },
+    {
+        id:4,
+        title: "Designer",
+        time: "February 2019 – November 2020",
+        company:"McGraw-Hill Education",
+        site: "https://www.mheducation.com/",
+        description: "Responsible for designing and developing content strategy for all product portfolios. Lead the design and development of McGraw Hill’s first digital product review platform, used to assist with multi million dollar sales opportunities."
+    },
+    {
+        id:5,
+        title: "Designer",
+        time: "February 2019 – November 2020",
+        company:"McGraw-Hill Education",
+        site: "https://www.mheducation.com/",
+        description: "Responsible for designing and developing content strategy for all product portfolios. Lead the design and development of McGraw Hill’s first digital product review platform, used to assist with multi million dollar sales opportunities."
+    },
 
   
 ]

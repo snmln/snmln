@@ -5,7 +5,6 @@ import { projects } from './Projects'
 function card(props) {
     const StyledCard = styled.div`
     .column {
-      padding: 0 10px;
       display: -webkit-flex;
       display: -ms-flexbox;     
       dispaly:inline-flex;
@@ -20,12 +19,10 @@ function card(props) {
     
 .cardContent{
     padding: 16px 0;
-
-
 }
 
 .card {
-        width: 225px;
+        width: 200px;
         height: 500px;
         margin:0 30px 22.4px 0 ;
         border-top: 2px solid;
@@ -38,7 +35,10 @@ function card(props) {
         // background-color: rgba(237, 237, 237,100);
         -webkit-transition:all 0.1s cubic-bezier(.53,0,.51,1.01);
         transition: all 0.1s cubic-bezier(.53,0,.51,1.01);}
-
+.explore{
+    postion: absolute;
+bottom: 0;
+}
 @media screen and (max-width: 768px) {
     .column {
         dispaly:inline-flex;
@@ -72,7 +72,7 @@ function card(props) {
                                 <h3>{project.title}</h3>
                                 <p>{project.description}</p>
                             </div>
-                            <p>explore</p>
+                            <p className="explore">explore</p>
                         </a>
                     ))}
                 </div>
