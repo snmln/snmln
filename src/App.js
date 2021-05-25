@@ -7,6 +7,7 @@ import Switch from './Components/Switch'
 import Contact from './Components/Contact'
 import WorkHistory from './Components/WorkHistory'
 import SampleWork from './Components/samplework'
+import Navbar from './Components/Navbar'
 
 function App() {
   const StyledApp = styled.div`
@@ -73,12 +74,14 @@ function App() {
 
         <GlobalStyles />
         <StyledApp>
-
+          <Navbar> 
           <Switch
             isToggled={isToggled}
             onToggle={() => { setIsToggled(!isToggled); themeToggler(); }}
             onClick={() => themeToggler()}
             theme={isToggled} />
+          </Navbar>
+      
           {/* <button onClick={() => themeToggler()} > change theme</button> */}
           <hr />
           <div className="Content">
