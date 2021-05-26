@@ -19,12 +19,12 @@ function card(props) {
     }
     
 .cardContent{
-    padding: 16px 0;
+    padding: 16px 0 50px 0;
 }
 
 .card {
         width: 200px;
-        height: 220px;
+        height: 300px;
         margin:0 30px 22.4px 0 ;
         border-top: 2px solid;
         border-bottom: 2px solid;

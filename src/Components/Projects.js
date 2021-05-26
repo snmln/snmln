@@ -1,9 +1,9 @@
 export const projects=[
     {
         id:1,
-        title: "Member site request to HTML",
+        title: "Quantum Health Member site tool",
         site: "#",
-        description: "translation of "
+        description: "Inaking standard Member site request information and converting to formated HTML markdown for CMS Managers"
     },
     {
         id:3,
@@ -28,5 +28,13 @@ export const projects=[
         company:"McGraw-Hill Education",
         site: "https://snmlnweatherapp.netlify.app/",
         description: "Using open source API."
+    },
+    {
+        id:5,
+        title: "Quantum-Health Corporate site",
+        time: "February 2019 – November 2020",
+        company:"McGraw-Hill Education",
+        site: "https://quantum-health.com/",
+        description: "Helping maintain legacy site and consult on the development and design of new corporate site "
     }
 ]
