@@ -35,7 +35,6 @@ function App() {
         .information{
         width: 50%;
         padding:0 0 0 22.4px;
-        transition-delay: all 2s;
 
       }
       
@@ -65,7 +64,6 @@ function App() {
     theme === "light" ? setTheme("dark") : setTheme("light");
   };
   const [isToggled, setIsToggled] = useState(false);
-  console.log(isToggled)
 
 
   return (
@@ -74,16 +72,14 @@ function App() {
 
         <GlobalStyles />
         <StyledApp>
-          <Navbar> 
+         
           <Switch
             isToggled={isToggled}
             onToggle={() => { setIsToggled(!isToggled); themeToggler(); }}
             onClick={() => themeToggler()}
             theme={isToggled} />
-          </Navbar>
       
           {/* <button onClick={() => themeToggler()} > change theme</button> */}
-          <hr />
           <div className="Content">
             <div className="title">
               <h1 className="display-1">Hello, My name is <br /> Sean Malone</h1>

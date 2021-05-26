@@ -9,23 +9,24 @@ function Navbar() {
 
 
   const StyledNav = styled.div`
-  .navbar {
+//   .navbar {
     height: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: roght;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 999;
     border-bottom: 2px solid;
-
+    margin-bottom: 11.2px;
+    background-color: ${(props) => props.theme.body};
   }
   
   .navbar-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+   align-items: center;
     height: 80px;
     max-width: 1500px;
   }
