@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from "styled-components";
 import { projects } from './Projects'
-import {BsArrowRightShort} from "react-icons/bs";
+import { BsArrowRightShort } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
 
 function card(props) {
     const StyledCard = styled.div`
@@ -49,11 +50,38 @@ function card(props) {
        text-decoration: underline;
        -webkit-transition:all 0.7s cubic-bezier(.53,0,.51,1.01);
        transition: all 0.7s cubic-bezier(.53,0,.51,1.01);
+       padding: .5rem 0;
     }
     
     .arrow{
         font-size: 3rem;
     }
+    a{
+        color: inherit; 
+        text-decoration: none;
+        border-bottom: 0 solid ;
+    }
+    a:hover{
+        color: inherit; 
+        text-decoration: none;
+        border-bottom: 0 solid ;
+    }
+    .links{
+        color: inherit; 
+        text-decoration: none;
+        border-bottom: 0 solid ;
+        font-size: 3rem;
+        margin: 0 .5rem 0 0;
+        box-sizing: border-box;
+       }
+
+       .links:hover{
+        border-bottom: 0 solid ;
+        -webkit-transition:all 0.2s cubic-bezier(.53,0,.51,1.01);
+        transition: all 0.2s cubic-bezier(.53,0,.51,1.01);
+        box-sizing: border-box;
+        //color: ${(props) => props.theme.hoverColor} ;
+       }
 @media screen and (max-width: 768px) {
     .column {
         dispaly:inline-flex;
@@ -90,20 +118,28 @@ function card(props) {
     .arrow{
         font-size: 1.5rem;
     }
+
 }
-   
-`
+`  
+
+
     return (
         <StyledCard>
             <div class="row">
                 <div class="column">
                     {projects.map((project) => (
-                        <a href={project.site} class="card" target="_blank">
+                        <a class="card">
                             <div class="cardContent">
                                 <h3>{project.title}</h3>
                                 <p>{project.description}</p>
                             </div>
-                            <p className="explore"><BsArrowRightShort className="arrow"/></p>
+                            <div className="explore">
+                                <a href={project.site} target="_blank" >
+                                    <BsArrowRightShort className="links" /></a>
+                                { project.Github ? <a href={project.Github} target="_blank" >
+                                    <AiFillGithub className="links"/> 
+                                </a> : null}
+                            </div>
                         </a>
                     ))}
                 </div>

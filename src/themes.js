@@ -4,8 +4,8 @@ export const lightTheme ={
     body: '#fff',
     fontColor: '#000',
     oppositeBody: '#000',
-    oppositeFont:'#fff'
-
+    oppositeFont:'#fff',
+    hoverColor: 'rgba(0,0,0,0.5)'
 }
 
 export const darkTheme = {
@@ -13,7 +13,8 @@ export const darkTheme = {
     fontColor: '#fff',
     background: "#282729",
     oppositeBody: '#fff',
-    oppositeFont:'#000'
+    oppositeFont:'#000',
+    hoverColor: 'rgba(255,255,255,0.5)'
 
 };
 

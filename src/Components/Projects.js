@@ -3,15 +3,18 @@ export const projects=[
         id:1,
         title: "Quantum Health Member site tool",
         site: "#",
-        description: "Inaking standard Member site request information and converting to formated HTML markdown for CMS Managers"
+        description: "Inaking standard Member site request information and converting to formated HTML markdown for CMS Managers",
+        Github: "https://github.com/snmln/FCC-E-commerce-site"
     },
     {
         id:3,
-        title: "Exommerce Site",
+        title: "Ecommerce Site",
         time: "May 2019 – Present",
         company:"Business Information Technology Services",
         site: "https://snmlnecommerce.netlify.app/",
-        description: "Utilizing React componenets creating an arcive"
+        description: "React based Ecommerce bike shop.",
+        Github: "https://github.com/snmln/FCC-E-commerce-site"
+
     },
     {
         id:2,
@@ -19,7 +22,8 @@ export const projects=[
         time: "February 2019 – November 2020",
         company:"McGraw-Hill Education",
         site: "https://snmlnpokedex.netlify.app/#/",
-        description: "React based Pokedex, utilizing pokemon open API."
+        description: "React based Pokedex, utilizing pokemon open API.",
+        Github:"https://github.com/snmln/Pokedex"
     },
     {
         id:4,
@@ -27,7 +31,9 @@ export const projects=[
         time: "February 2019 – November 2020",
         company:"McGraw-Hill Education",
         site: "https://snmlnweatherapp.netlify.app/",
-        description: "Using open source API."
+        description: "Using open source API.",
+        Github:"https://github.com/snmln/Weather-app"
+
     },
     {
         id:5,
