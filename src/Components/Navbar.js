@@ -21,6 +21,8 @@ function Navbar() {
     border-bottom: 2px solid;
     margin-bottom: 11.2px;
     background-color: ${(props) => props.theme.body};
+    // transition: all 0.7s;
+    // -webkit-transition:all 0.7s;
   }
   
   .navbar-container {

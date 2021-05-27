@@ -1,5 +1,10 @@
 import React from 'react'
 import styled from "styled-components";
+import {AiFillLinkedin} from "react-icons/ai";
+import {AiOutlineDribbble} from "react-icons/ai";
+import {AiOutlineCodepen} from "react-icons/ai";
+import {AiFillGithub} from "react-icons/ai";
+import {AiOutlineInstagram} from "react-icons/ai";
 
 export default function Contact() {
     const StyledContact = styled.div`
@@ -22,7 +27,7 @@ export default function Contact() {
     li{
         padding: 0 0 2rem 0; 
         width: 33%;
-        font-size: 1.5rem;
+        //font-size: 1.5rem;
     }
 
     @media screen and (max-width: 768px) {
@@ -58,11 +63,11 @@ export default function Contact() {
                     <h2>Contact</h2>
                 </div>
                     <ul className="information">
-                        <li><a href="https://www.linkedin.com/in/snmln/" target="_blank">Linkedin</a></li>
-                        <li><a href="https://www.instagram.com/enolam_sean/?hl=en" target="_blank">Instagram</a></li>
-                        <li><a href="https://www.linkedin.com/in/snmln/" target="_blank">Github</a></li>
-                        <li><a href="https://codepen.io/your-work/" target="_blank">Codepen</a></li>
-                        <li><a href="https://dribbble.com/snmln" target="_blank">Dribbble</a></li>
+                        <li><a href="https://www.linkedin.com/in/snmln/" target="_blank"><AiFillLinkedin className="icon"/>Linkedin</a></li>
+                        <li><a href="https://www.instagram.com/enolam_sean/?hl=en" target="_blank"><AiOutlineInstagram className="icon"/>Instagram</a></li>
+                        <li><a href="https://www.linkedin.com/in/snmln/" target="_blank"><AiFillGithub className="icon"/>Github</a></li>
+                        <li><a href="https://codepen.io/your-work/" target="_blank"><AiOutlineCodepen className="icon"/>Codepen</a></li>
+                        <li><a href="https://dribbble.com/snmln" target="_blank"><AiOutlineDribbble className="icon"/>Dribbble</a></li>
                     </ul>
             </div>
         </StyledContact>

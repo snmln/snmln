@@ -27,10 +27,10 @@ export const HighContrastTheme = {
 export const GlobalStyles = createGlobalStyle`
 body{
     background-color: ${(props) => props.theme.body};
-    transition: all 0.7s cubic-bezier(.54,0,.5,1);
-    transition: color 0.7s cubic-bezier(.54,0,.5,1) 0.5s;
+    // transition: all 0.7s cubic-bezier(.54,0,.5,1);
+    // transition: color 0.7s cubic-bezier(.54,0,.5,1) 0.5s;
 
-     -webkit-transition: all 0.7s cubic-bezier(.54,0,.5,1);
+    //  -webkit-transition: all 0.7s cubic-bezier(.54,0,.5,1);
 
 
     font-family: Pitch,monospace;
@@ -90,8 +90,8 @@ a:hover{
     color: inherit; 
     text-decoration: none;
     border-bottom: 3px solid ;
-    transition: all 0.7s cubic-bezier(.54,0,.5,1);
-    -webkit-transition:all 0.7s cubic-bezier(.54,0,.5,1);
+    transition: all 0.2s ;
+    -webkit-transition:all 0.2s ;
 
 }
 
@@ -104,5 +104,8 @@ hr{
   .display-1{
       font-size: 40px;
   }
-
+.icon{
+    text-decoration: none !important;
+ 
+}
 `
