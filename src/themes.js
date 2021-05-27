@@ -57,8 +57,8 @@ p{
     -webkit-font-kerning: normal;
     font-kerning: normal;
  margin-top: 0;
- transition: all 0.7s cubic-bezier(.54,0,.5,1);
- transition: color 0.7s cubic-bezier(.54,0,.5,1) 0.5s;
+ transition: all 0.2s cubic-bezier(.54,0,.5,1);
+ transition: color 0.2s cubic-bezier(.54,0,.5,1) 0.5s;
 
   -webkit-transition: all 0.7s cubic-bezier(.54,0,.5,1);
 }

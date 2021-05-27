@@ -86,11 +86,11 @@ function App() {
 
             </div>
             <div className="information">
-              <p>I'm a Graphic Designer and Software Developer with an appetite for complex problems. Currently residing in Columbus, OH as a Digital Designer 	&#38; Front-end Developer @ <a href="https://quantum-health.com/" target="_blank" >Quantum Health</a> and Jr. Developer @ B.I.T.S.</p>
+              <p>I'm a Graphic Designer and Software Developer with an appetite for complex problems. Currently residing in Columbus, OH as a Digital Designer 	&#38; Front-end Developer @ <a href="https://quantum-health.com/" target="_blank" >Quantum Health</a> and Jr. Developer @ <a href="http://businessinformationtechnologyservices.com/" target="_blank" > B.I.T.S.</a></p>
 
               <p>Always happy to talk about design, dev, and dogs.</p>
 
-              <p>Resume provided on request: snmln.dev@gmail.com</p>
+              <p>Resume provided on request: <a href = "mailto: snmln.dev@gmail.com">snmln.dev@gmail.com</a></p>
             </div>
           </div>
           <hr />

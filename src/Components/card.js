@@ -60,28 +60,25 @@ function card(props) {
         color: inherit; 
         text-decoration: none;
         border-bottom: 0 solid ;
+                box-sizing: border-box;
+                margin: 0 1rem 0 0;
+
     }
-    a:hover{
-        color: inherit; 
-        text-decoration: none;
-        border-bottom: 0 solid ;
-    }
+   
     .links{
         color: inherit; 
         text-decoration: none;
         border-bottom: 0 solid ;
         font-size: 3rem;
-        margin: 0 .5rem 0 0;
         box-sizing: border-box;
        }
 
-       .links:hover{
-        border-bottom: 0 solid ;
-        -webkit-transition:all 0.2s cubic-bezier(.53,0,.51,1.01);
-        transition: all 0.2s cubic-bezier(.53,0,.51,1.01);
-        box-sizing: border-box;
-        //color: ${(props) => props.theme.hoverColor} ;
-       }
+    //    .links:hover{
+    //     -webkit-transition:all 0.2s cubic-bezier(.53,0,.51,1.01);
+    //     transition: all 0.2s cubic-bezier(.53,0,.51,1.01);
+    //     box-sizing: border-box;
+    //     //color: ${(props) => props.theme.hoverColor} ;
+    //    }
 @media screen and (max-width: 768px) {
     .column {
         dispaly:inline-flex;
@@ -96,7 +93,7 @@ function card(props) {
 
       .card {
         margin:0 0 22.4px 0 ;
-        border-top: 0px solid;
+        border-top: 1px solid;
         border-bottom: 0px solid;
         width: 100%;
         height:100%;
@@ -105,11 +102,11 @@ function card(props) {
         position: relative;
         bottom: 0;
        width: 100%;
-       background-color: ${(props) => props.theme.oppositeBody};
-       color: ${(props) => props.theme.oppositeFont};
-       text-align: right !important;
-       padding: .5rem;
-       text-decoration: underline;
+      // background-color: ${(props) => props.theme.oppositeBody};
+      // color: ${(props) => props.theme.oppositeFont};
+      // text-align: right !important;
+      padding: 16px  0;
+      text-decoration: underline;
        box-sizing: border-box;
        -webkit-transition:all 0.7s cubic-bezier(.53,0,.51,1.01);
        transition: all 0.7s cubic-bezier(.53,0,.51,1.01);
@@ -118,7 +115,17 @@ function card(props) {
     .arrow{
         font-size: 1.5rem;
     }
-
+    .links{
+        color: inherit; 
+        text-decoration: none;
+        border-bottom: 0 solid ;
+        font-size: 4rem;
+        margin: 0 .5rem 0 0;
+        box-sizing: border-box;
+       }
+       .cardContent{
+        padding: 16px  0 0 0;
+    }
 }
 `  
 

@@ -12,7 +12,7 @@ export const positions=[
         title: "Junior Software/Web Developer",
         time: "May 2019 – Present",
         company:"Business Information Technology Services",
-        site: "#",
+        site: "http://businessinformationtechnologyservices.com/",
         description: "Implementing, developing, and maintaining custom website designs for clients using Drupal, Wordpress and Squarespace. Working with and implementing proprietary API’s. Supporting Senior Developers and Tech Leads on client application development utilizing JavaScript, REACT."
     },
     {
