@@ -5,6 +5,8 @@ import styled from "styled-components";
 
 function Switch({ isToggled, onToggle, theme }) {
     const StyledToggle = styled.div`
+
+   
     .switch{
         position: relative;
         display: inline-block;
@@ -61,7 +63,7 @@ function Switch({ isToggled, onToggle, theme }) {
         display: inline;
         padding: 0 0 0 .25rem;
     }
-    //   .navbar {
+    //  .navbar {
     height: 80px;
     display: flex;
     justify-content: roght;
@@ -73,10 +75,15 @@ function Switch({ isToggled, onToggle, theme }) {
     border-bottom: 2px solid;
     margin-bottom: 11.2px;
     background-color: ${(props) => props.theme.body};
-   
+
+    transition: all 0.7s cubic-bezier(.54,0,.5,1);
+    transition: color 0.7s cubic-bezier(.54,0,.5,1) 0.5s;
+
+     -webkit-transition: all 0.7s cubic-bezier(.54,0,.5,1);
   }
   
   .navbar-container {
+      
     display: flex;
     justify-content: center;
    align-items: center;

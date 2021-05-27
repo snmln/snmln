@@ -27,7 +27,10 @@ export const HighContrastTheme = {
 export const GlobalStyles = createGlobalStyle`
 body{
     background-color: ${(props) => props.theme.body};
-  
+    transition: all 0.7s cubic-bezier(.54,0,.5,1);
+    transition: color 0.7s cubic-bezier(.54,0,.5,1) 0.5s;
+
+     -webkit-transition: all 0.7s cubic-bezier(.54,0,.5,1);
 
 
     font-family: Pitch,monospace;
@@ -53,6 +56,10 @@ p{
     -webkit-font-kerning: normal;
     font-kerning: normal;
  margin-top: 0;
+ transition: all 0.7s cubic-bezier(.54,0,.5,1);
+ transition: color 0.7s cubic-bezier(.54,0,.5,1) 0.5s;
+
+  -webkit-transition: all 0.7s cubic-bezier(.54,0,.5,1);
 }
 h1{
     letter-spacing: -.01rem;
@@ -83,6 +90,8 @@ a:hover{
     color: inherit; 
     text-decoration: none;
     border-bottom: 3px solid ;
+    transition: all 0.7s cubic-bezier(.54,0,.5,1);
+    -webkit-transition:all 0.7s cubic-bezier(.54,0,.5,1);
 
 }
 

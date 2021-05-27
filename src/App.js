@@ -100,7 +100,6 @@ function App() {
           <hr />
 
           <Contact />
-          <hr />
 
         </StyledApp>
       </ThemeProvider>
