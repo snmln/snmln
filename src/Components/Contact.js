@@ -75,7 +75,7 @@ export default function Contact() {
                     <ul className="information">
                         <li><a href="https://www.linkedin.com/in/snmln/" target="_blank"><AiFillLinkedin className="icon"/>{/*Linkedin*/}</a></li>
                         {/* <li><a href="https://www.instagram.com/enolam_sean/?hl=en" target="_blank"><AiOutlineInstagram className="icon"/>Instagram</a></li> */}
-                        <li><a href="https://www.linkedin.com/in/snmln/" target="_blank"><AiFillGithub className="icon"/>{/*Github<*/}</a></li>
+                        <li><a href="https://github.com/snmln" target="_blank"><AiFillGithub className="icon"/>{/*Github<*/}</a></li>
                         <li><a href="https://codepen.io/your-work/" target="_blank"><AiOutlineCodepen className="icon"/>{/*Codepen*/}</a></li>
                         <li><a href="https://dribbble.com/snmln" target="_blank"><AiOutlineDribbble className="icon"/>{/*Dribbble*/}</a></li>
                     </ul>

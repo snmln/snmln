@@ -1,21 +1,11 @@
 export const projects=[
-<<<<<<< HEAD
-    // {
-    //     id:1,
-    //     title: "Quantum Health Member site tool",
-    //     site: "#",
-    //     description: "Inaking standard Member site request information and converting to formated HTML markdown for CMS Managers",
-    //     Github: "https://github.com/snmln/QH-Vendor-Tool"
-    // },
-=======
     {
         id:1,
         title: "Quantum Health Member site tool",
         site: "https://csv-vendor-translator.netlify.app/",
-        description: "Inaking standard Member site request information and converting to formated HTML markdown for CMS Managers",
+        description: "Intaking Quantum-Health Member site request information and converting to formated HTML markdown for CMS Managers",
         Github: "https://github.com/snmln/FCC-E-commerce-site"
     },
->>>>>>> 499e5e2dfdf2c160dd05010bb73c4740ad1ead96
     {
         id:3,
         title: "Ecommerce Site",
