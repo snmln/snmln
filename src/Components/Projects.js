@@ -4,7 +4,7 @@ export const projects=[
         title: "Quantum Health Member site tool",
         site: "https://csv-vendor-translator.netlify.app/",
         description: "Intaking Quantum-Health Member site request information and converting to formated HTML markdown for CMS Managers",
-        Github: "https://github.com/snmln/FCC-E-commerce-site"
+        Github: "https://github.com/snmln/QH-Vendor-Tool"
     },
     {
         id:3,
