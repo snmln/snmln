@@ -1,11 +1,11 @@
 export const projects=[
-    {
-        id:1,
-        title: "Quantum Health Member site tool",
-        site: "#",
-        description: "Inaking standard Member site request information and converting to formated HTML markdown for CMS Managers",
-        Github: "https://github.com/snmln/FCC-E-commerce-site"
-    },
+    // {
+    //     id:1,
+    //     title: "Quantum Health Member site tool",
+    //     site: "#",
+    //     description: "Inaking standard Member site request information and converting to formated HTML markdown for CMS Managers",
+    //     Github: "https://github.com/snmln/QH-Vendor-Tool"
+    // },
     {
         id:3,
         title: "Ecommerce Site",
@@ -22,7 +22,7 @@ export const projects=[
         time: "February 2019 – November 2020",
         company:"McGraw-Hill Education",
         site: "https://snmlnpokedex.netlify.app/#/",
-        description: "React based Pokedex, utilizing pokemon open API.",
+        description: "React based Pokedex, utilizing Pokemon open API.",
         Github:"https://github.com/snmln/Pokedex"
     },
     {
@@ -31,7 +31,7 @@ export const projects=[
         time: "February 2019 – November 2020",
         company:"McGraw-Hill Education",
         site: "https://snmlnweatherapp.netlify.app/",
-        description: "Using open source API.",
+        description: "Creating a free weather app using the openweathermap API",
         Github:"https://github.com/snmln/Weather-app"
 
     },
@@ -41,6 +41,6 @@ export const projects=[
         time: "February 2019 – November 2020",
         company:"McGraw-Hill Education",
         site: "https://quantum-health.com/",
-        description: "Helping maintain legacy site and consult on the development and design of new corporate site "
+        description: "Helping maintain legacy site and consult on the development and design of new corporate site."
     }
 ]

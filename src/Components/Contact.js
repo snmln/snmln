@@ -18,6 +18,7 @@ export default function Contact() {
     .information{
         display: flex;
         flex-wrap: wrap;
+        margin: 0;
     }
   
     ul{
@@ -69,7 +70,7 @@ export default function Contact() {
             <div className="contactContainer">
 
                 <div className="title">
-                    <h2>Contact</h2>
+                    <h2>Links</h2>
                 </div>
                     <ul className="information">
                         <li><a href="https://www.linkedin.com/in/snmln/" target="_blank"><AiFillLinkedin className="icon"/>{/*Linkedin*/}</a></li>
