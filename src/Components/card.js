@@ -24,7 +24,8 @@ function card(props) {
 }
 
 .card {
-        width: 200px;
+        max-width: 225px;
+        width: 100%;
         height: 300px;
         margin:0 30px 22.4px 0 ;
         border-top: 2px solid;
@@ -97,6 +98,7 @@ function card(props) {
         border-bottom: 0px solid;
         width: 100%;
         height:100%;
+        max-width: 100%;
     }
     .explore{
         position: relative;
@@ -137,7 +139,7 @@ function card(props) {
                     {projects.map((project) => (
                         <a class="card">
                             <div class="cardContent">
-                                <h3>{project.title}</h3>
+                                <h2>{project.title}</h2>
                                 <p>{project.description}</p>
                             </div>
                             <div className="explore">

@@ -8,6 +8,7 @@ import Contact from './Components/Contact'
 import WorkHistory from './Components/WorkHistory'
 import SampleWork from './Components/samplework'
 import Navbar from './Components/Navbar'
+import DesignSlides from './Components/designSlides';
 
 function App() {
   const StyledApp = styled.div`
@@ -18,8 +19,8 @@ function App() {
           width: 100%;
           display: -webkit-flex;
           display: -ms-flexbox;
-          flex-wrap: wrap;
-
+          flex-wrap: nowrap;
+          margin: 2.5rem 0 0 0;
         }
         .Container{
           dispaly:inline-flex;
@@ -29,13 +30,14 @@ function App() {
       display: -ms-flexbox;
       }
         .title{
-          width: 40%;
+          max-width: 400px;
+          width: 100%;
         }
 
         .information{
-        width: 50%;
+        width: 100%;
         padding:0 0 0 22.4px;
-
+        max-width: 850px;
       }
       
       @media (max-width: 768px) {
@@ -72,13 +74,13 @@ function App() {
 
         <GlobalStyles />
         <StyledApp>
-         
+
           <Switch
             isToggled={isToggled}
             onToggle={() => { setIsToggled(!isToggled); themeToggler(); }}
             onClick={() => themeToggler()}
             theme={isToggled} />
-      
+
           {/* <button onClick={() => themeToggler()} > change theme</button> */}
           <div className="Content">
             <div className="title">
@@ -86,11 +88,11 @@ function App() {
 
             </div>
             <div className="information">
-              <p>I'm a Graphic Designer and Software Developer with an appetite for complex problems. Currently residing in Columbus, OH as a Digital Designer 	&#38; Front-end Developer @ <a href="https://quantum-health.com/" target="_blank" >Quantum Health</a> and Jr. Developer @ <a href="http://businessinformationtechnologyservices.com/" target="_blank" > B.I.T.S.</a></p>
+              <p>I'm a Designer and Software Developer with an appetite for complex problems. Currently residing in Columbus, OH as a Senior UI/UX Designer &#38; Front-end Developer @ <a href="https://www.insight.com/en_US/what-we-do/digital-innovation.html" target="_blank" >Insight Digital Innovation.</a></p>
 
               <p>Always happy to talk about design, dev, and dogs.</p>
 
-              <p>Resume provided on request: <a href = "mailto: snmln.dev@gmail.com">snmln.dev@gmail.com</a></p>
+              <p>Resume provided on request: <a href="mailto: snmln.dev@gmail.com">snmln.dev@gmail.com</a></p>
             </div>
           </div>
           <hr />
@@ -98,7 +100,8 @@ function App() {
           <hr />
           <WorkHistory />
           <hr />
-
+          {/* <DesignSlides />
+          <hr /> */}
           <Contact />
 
         </StyledApp>

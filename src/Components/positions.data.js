@@ -1,8 +1,17 @@
 export const positions=[
     {
+        id:0,
+        title: "Senior UI Designer/Front-End Developer",
+        time: "September 2021 – Present",
+        company:"Insight Digital innovation",
+        site: "https://www.insight.com/en_US/what-we-do/digital-innovation.html",
+        description: "Responsible for the accuracy and quality of the deliverables generated at each step in the software development lifecycle. Working with companies ranging in scale from startup to Fortune 100 in a variety of industries including health life sciences, finance, manufacturing and more. Work directly with clients to understand the deep technical problems. Map business needs to technical solutions that will make clients more relevant and competitive. Collaborate with a team as the Front End expert to rapidly prototype and prove solutions."
+    },
+    
+    {
         id:1,
         title: "Front-End Developer/Digital Designer",
-        time: "November 2020 – present",
+        time: "November 2020 – September 2021",
         company:"Quantum-Health",
         site: "https://quantum-health.com/",
         description: "As the soul Digital Designer and Front-end Developer for the Quantum-Health Marketing department I helped guide digital strategy, design, technical development and implementation. While maintaining and developing Quantum-Health corporate site, Client member sites, Custom user scripts, Internal applications, as well as Business and Corporate email communications. Utilizing our proprietary CMS, public API’s, HTML, CSS, JavaScript, React, PHP, Vue.js, Jquery, SQL, and MySQL."
@@ -24,15 +33,7 @@ export const positions=[
         description: "Responsible for designing and developing content strategy for all product portfolios. Lead the design and development of McGraw Hill’s first digital product review platform, used to assist with multi million dollar sales opportunities."
     },
 
-    // {
-    //     id:4,
-    //     title: "Designer/Developer",
-    //     time: "Feb 2015 – Present",
-    //     company:"Freelance",
-    //     site: "#",
-    //     description: "Description"
-    // },
-    
+  
 
     {
         id:5,

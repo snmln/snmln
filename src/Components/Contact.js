@@ -13,7 +13,8 @@ export default function Contact() {
         flex-direction: row;
         width: 100%;
             display: -webkit-flex;
-    display: -ms-flexbox;
+            display: -ms-flexbox;
+            padding: 0 0 2rem 0;
     }
     .information{
         display: flex;
@@ -26,9 +27,8 @@ export default function Contact() {
         padding: 0;
     }
     li{
-        padding: 0 2rem 2rem 0; 
-       // width: 25%;
-        //font-size: 1.5rem;
+        padding: 0 2rem 0 0; 
+   
     }
     .icon{
         border-bottom: 0px solid;
@@ -60,7 +60,7 @@ export default function Contact() {
         }
 
         li{
-            padding: 0 1rem 2rem 0; 
+            padding: none; 
             font-size: 1.5rem;
         }
     }

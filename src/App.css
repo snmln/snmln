@@ -3,7 +3,7 @@
 }
 
 .main-Container{
-  padding:22.4px;
+  margin: 40px;
 }
 
 .App-logo {
@@ -39,4 +39,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+@media (max-width: 625px) {
+
+.main-Container{
+  margin: 16px;
+}
 }

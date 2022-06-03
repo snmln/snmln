@@ -1,6 +1,6 @@
 import React from 'react'
 import styled, { ThemeProvider } from "styled-components";
-import { positions } from './positions.js'
+import { positions } from './positions.data.js'
 
 export default function WorkHistory(props) {
     const StyledWork = styled.div`
@@ -58,12 +58,12 @@ export default function WorkHistory(props) {
                     <ul>
                         {positions.map((position) => (
                             <li>
-                                <h3>{position.title}</h3>
+                                <h2>{position.title}</h2>
                                 <h4><a href={position.site} target="_blank">{position.company}</a>  |  {position.time}</h4>
                                 <p>{position.description}</p>
                             </li>
                         ))}
-                      
+
                     </ul>
                 </div>
             </div>

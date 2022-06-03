@@ -36,6 +36,7 @@ body{
 
     font-family: Pitch,monospace;
     letter-spacing: -.01rem;
+    font-size: 14px;
     -ms-font-feature-settings: "kern";
     text-rendering: optimizeLegibility;
     font-feature-settings: "kern";
@@ -79,6 +80,7 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 700; 
     padding: 0 0 1rem 0;
     margin:0;
+    
 }
 
 a{
@@ -99,7 +101,7 @@ a:hover{
 hr{
     border: none;
     border-top: 2px solid;
-    margin: 1rem 0;
+    margin: 2.5rem 0;
   }
 
   .display-1{
