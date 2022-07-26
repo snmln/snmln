@@ -24,7 +24,7 @@ function card(props) {
 }
 
 .card {
-        max-width: 225px;
+        max-width: 250px;
         width: 100%;
         height: 300px;
         margin:0 30px 22.4px 0 ;

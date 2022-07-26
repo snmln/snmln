@@ -1,5 +1,10 @@
 export const projects=[
     {
+        id:7,
+        title: "Kroger.com",
+        site: "https://www.thechristhospital.com/physician",
+        description: "Developing and maintaining Kroger.com Front-end, Analytics, and CMS system"
+    },{
         id:6,
         title: "The Christ Hospital Find a Physician tool",
         site: "https://www.thechristhospital.com/physician",
