@@ -3,5 +3,5 @@
 ### Full-Stack Developer and Designer.
 
 ##### As of now:
-- 🔭 Currently, I'm working on the Enterprise Design systems and Arduino micro-controller projects
+- 🔭 Currently, I'm working on Enterprise Design Systems and Arduino micro-controller projects
 - 📫 Can be found at [snmln](https://snmln.com) or reached via [email](mailto:snmln.dev@gmail.com)
